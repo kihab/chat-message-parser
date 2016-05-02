@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17521C1B997E24AA24817C75 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B81B777247E17AD8FC415E /* Pods.framework */; };
 		8A1F7CBB1CD7EEF8001BFC51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F7CBA1CD7EEF8001BFC51 /* AppDelegate.swift */; };
 		8A1F7CBD1CD7EEF8001BFC51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F7CBC1CD7EEF8001BFC51 /* ViewController.swift */; };
 		8A1F7CC01CD7EEF8001BFC51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1F7CBE1CD7EEF8001BFC51 /* Main.storyboard */; };
 		8A1F7CC21CD7EEF8001BFC51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1F7CC11CD7EEF8001BFC51 /* Assets.xcassets */; };
 		8A1F7CC51CD7EEF8001BFC51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1F7CC31CD7EEF8001BFC51 /* LaunchScreen.storyboard */; };
+		8A1F7CD31CD7EF76001BFC51 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F7CD21CD7EF76001BFC51 /* StringExtensions.swift */; };
+		8A1F7CD51CD7F024001BFC51 /* RegexUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F7CD41CD7F024001BFC51 /* RegexUtil.swift */; };
+		8A1F7CD71CD7F138001BFC51 /* JsonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F7CD61CD7F138001BFC51 /* JsonUtil.swift */; };
+		8A1F7CD91CD7F548001BFC51 /* URLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F7CD81CD7F548001BFC51 /* URLUtil.swift */; };
+		8A1F7CDB1CD7FA6D001BFC51 /* ChatMessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F7CDA1CD7FA6D001BFC51 /* ChatMessageService.swift */; };
+		8A1F7CDD1CD7FA9C001BFC51 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F7CDC1CD7FA9C001BFC51 /* ChatMessage.swift */; };
+		8A1F7CE11CD7FAEB001BFC51 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F7CE01CD7FAEB001BFC51 /* Link.swift */; };
+		8A1F7CE31CD80A02001BFC51 /* ThreadUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F7CE21CD80A02001BFC51 /* ThreadUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B81B777247E17AD8FC415E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1F7CB71CD7EEF8001BFC51 /* AtlassianChatMessageParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlassianChatMessageParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1F7CBA1CD7EEF8001BFC51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A1F7CBC1CD7EEF8001BFC51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,16 @@
 		8A1F7CC11CD7EEF8001BFC51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A1F7CC41CD7EEF8001BFC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A1F7CC61CD7EEF8001BFC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1F7CD21CD7EF76001BFC51 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		8A1F7CD41CD7F024001BFC51 /* RegexUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexUtil.swift; sourceTree = "<group>"; };
+		8A1F7CD61CD7F138001BFC51 /* JsonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonUtil.swift; sourceTree = "<group>"; };
+		8A1F7CD81CD7F548001BFC51 /* URLUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLUtil.swift; sourceTree = "<group>"; };
+		8A1F7CDA1CD7FA6D001BFC51 /* ChatMessageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageService.swift; sourceTree = "<group>"; };
+		8A1F7CDC1CD7FA9C001BFC51 /* ChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		8A1F7CE01CD7FAEB001BFC51 /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		8A1F7CE21CD80A02001BFC51 /* ThreadUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadUtil.swift; sourceTree = "<group>"; };
+		A57FE582C78D9FFBE26781CC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A858901629EA77D00761A8BF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17521C1B997E24AA24817C75 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07E497061BA3ED9E4424A125 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A57FE582C78D9FFBE26781CC /* Pods.debug.xcconfig */,
+				A858901629EA77D00761A8BF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8A1F7CAE1CD7EEF8001BFC51 = {
 			isa = PBXGroup;
 			children = (
 				8A1F7CB91CD7EEF8001BFC51 /* AtlassianChatMessageParser */,
 				8A1F7CB81CD7EEF8001BFC51 /* Products */,
+				07E497061BA3ED9E4424A125 /* Pods */,
+				D343A24599254E9DF54DAE8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,70 @@
 		8A1F7CB91CD7EEF8001BFC51 /* AtlassianChatMessageParser */ = {
 			isa = PBXGroup;
 			children = (
+				8A1F7CD11CD7EF5C001BFC51 /* Controllers */,
+				8A1F7CD01CD7EF4E001BFC51 /* Extensions */,
+				8A1F7CCF1CD7EF43001BFC51 /* Services */,
+				8A1F7CCE1CD7EF3C001BFC51 /* Utils */,
+				8A1F7CCC1CD7EF11001BFC51 /* Models */,
 				8A1F7CBA1CD7EEF8001BFC51 /* AppDelegate.swift */,
-				8A1F7CBC1CD7EEF8001BFC51 /* ViewController.swift */,
 				8A1F7CBE1CD7EEF8001BFC51 /* Main.storyboard */,
 				8A1F7CC11CD7EEF8001BFC51 /* Assets.xcassets */,
 				8A1F7CC31CD7EEF8001BFC51 /* LaunchScreen.storyboard */,
 				8A1F7CC61CD7EEF8001BFC51 /* Info.plist */,
 			);
 			path = AtlassianChatMessageParser;
+			sourceTree = "<group>";
+		};
+		8A1F7CCC1CD7EF11001BFC51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A1F7CDC1CD7FA9C001BFC51 /* ChatMessage.swift */,
+				8A1F7CE01CD7FAEB001BFC51 /* Link.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8A1F7CCE1CD7EF3C001BFC51 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A1F7CD41CD7F024001BFC51 /* RegexUtil.swift */,
+				8A1F7CD61CD7F138001BFC51 /* JsonUtil.swift */,
+				8A1F7CD81CD7F548001BFC51 /* URLUtil.swift */,
+				8A1F7CE21CD80A02001BFC51 /* ThreadUtil.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8A1F7CCF1CD7EF43001BFC51 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8A1F7CDA1CD7FA6D001BFC51 /* ChatMessageService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8A1F7CD01CD7EF4E001BFC51 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A1F7CD21CD7EF76001BFC51 /* StringExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8A1F7CD11CD7EF5C001BFC51 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A1F7CBC1CD7EEF8001BFC51 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D343A24599254E9DF54DAE8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B81B777247E17AD8FC415E /* Pods.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A1F7CC91CD7EEF8001BFC51 /* Build configuration list for PBXNativeTarget "AtlassianChatMessageParser" */;
 			buildPhases = (
+				D14D1F14DFCFE38B0304A208 /* Check Pods Manifest.lock */,
 				8A1F7CB31CD7EEF8001BFC51 /* Sources */,
 				8A1F7CB41CD7EEF8001BFC51 /* Frameworks */,
 				8A1F7CB51CD7EEF8001BFC51 /* Resources */,
+				B8F29BC131AE4FE7E93DDD22 /* Embed Pods Frameworks */,
+				237CF77CE93013A41D5F45C3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +221,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		237CF77CE93013A41D5F45C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F29BC131AE4FE7E93DDD22 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14D1F14DFCFE38B0304A208 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A1F7CB31CD7EEF8001BFC51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1F7CD31CD7EF76001BFC51 /* StringExtensions.swift in Sources */,
+				8A1F7CDD1CD7FA9C001BFC51 /* ChatMessage.swift in Sources */,
+				8A1F7CD91CD7F548001BFC51 /* URLUtil.swift in Sources */,
 				8A1F7CBD1CD7EEF8001BFC51 /* ViewController.swift in Sources */,
 				8A1F7CBB1CD7EEF8001BFC51 /* AppDelegate.swift in Sources */,
+				8A1F7CDB1CD7FA6D001BFC51 /* ChatMessageService.swift in Sources */,
+				8A1F7CE11CD7FAEB001BFC51 /* Link.swift in Sources */,
+				8A1F7CE31CD80A02001BFC51 /* ThreadUtil.swift in Sources */,
+				8A1F7CD51CD7F024001BFC51 /* RegexUtil.swift in Sources */,
+				8A1F7CD71CD7F138001BFC51 /* JsonUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +396,7 @@
 		};
 		8A1F7CCA1CD7EEF8001BFC51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57FE582C78D9FFBE26781CC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AtlassianChatMessageParser/Info.plist;
@@ -260,6 +408,7 @@
 		};
 		8A1F7CCB1CD7EEF8001BFC51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A858901629EA77D00761A8BF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AtlassianChatMessageParser/Info.plist;
@@ -288,6 +437,7 @@
 				8A1F7CCB1CD7EEF8001BFC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
